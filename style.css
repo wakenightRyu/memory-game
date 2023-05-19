@@ -1,0 +1,64 @@
+* {
+  font-family: "Arial"
+}
+
+#game div {
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+  margin-left: 7px;
+  margin-right: 7px;
+  margin-bottom: 10px;
+  display: inline-block;
+  border-radius: 10px;
+}
+
+#game {
+  text-align: center;
+  width: 600px;
+  margin: 0 auto;
+}
+
+.backToWhite {
+  background-color: white;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+
+h2 {
+  margin-top: 35px;
+  margin-bottom: 30px;
+  font-weight: 400;
+  font-size: 23px;
+}
+
+h3.clicks-req {
+  margin-top: 10px;
+  margin-bottom: 40px;
+  font-weight: 400;
+  text-align: center;
+}
+
+button.play-again {
+  background-color: lightskyblue;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 12px 20px 12px 20px;
+  border: none;
+  border-radius: 30px;
+  margin-top: 60px;
+}
+
+button.play-again:hover {
+  background-color: pink;
+}
+
+h3.best-score {
+  font-weight: 400;
+  font-size: 18px;
+  margin-top: -102px;
+}
